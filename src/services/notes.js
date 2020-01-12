@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const baseUrl = 'https://limitless-forest-28952.herokuapp.com/notes'
+const baseUrl = '/notes'
 
 const getAll = () => {
   const request = axios.get(baseUrl)
